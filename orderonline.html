@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Order Online</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+
+
+<body>
+
+<!--Navigation Bar -->
+<div id="navbar">
+<ul>
+<li><a href="index.html">Home</a></li>
+ <li><a href="impact.html">Our Impact</a></li>
+ 
+ <li class="dropdown">
+  <a href="#">Groceries</a>
+  <ul class="dropdown-content">
+     <li><a href="shopall.html">Shop All</a></li> 
+     <li><a href="weeklyspecials.html">Weekly Specials</a></li>
+	 
+   </ul>
+   
+  </li>
+  
+     <li><a href="findastore.html"> Find a Store</a></li>
+	 <li><a href="orderonline.html">Order Online</a></li>
+	 
+	 </ul>
+	 
+	 
+ </div>
+ 
+  
+<h2>GROCERY ORDER FORM</h2>
+
+<div class="section">
+<h4>My Products</h4>
+
+<div class="product">
+<label class="pick">
+<input type="checkbox" checked>
+</label>
+
+  <img src="tomato.jpg" alt="Tomato">
+
+  <div class="info">
+    <p class="name">Tomato</p>
+
+    <div class="qty-row">
+      <label>Quantity</label>
+      <input type="number" value="3" min="3">
+    </div>
+  </div>
+
+  <span class="price">$2.50</span>
+</div>
+
+<div class="product">
+  <label class="pick">
+    <input type="checkbox" checked>
+  </label>
+
+  <img src="watermelon.jpg" alt="Watermelon">
+
+  <div class="info">
+    <p class="name">Watermelon</p>
+
+    <div class="qty-row">
+      <label>Quantity</label>
+      <input type="number" value="1" min="1">
+    </div>
+  </div>
+  
+  <span class="price">$2.50</span>
+  
+  </div>
+  
+  <div class="product">
+  <label class="pick">
+    <input type="checkbox" checked>
+  </label>
+
+  <img src="banana.jpg" alt="Banana">
+
+  <div class="info">
+    <p class="name">Banana</p>
+
+    <div class="qty-row">
+      <label>Quantity</label>
+      <input type="number" value="2" min="2">
+    </div>
+  </div>
+ <span class="price">$2.50</span>
+
+
+</div>
+
+<div class="total">
+Total <span>$10.00</span>
+</div>
+
+</div>
+
+<div class="section">
+<h4>Name</h4>
+<div class="row">
+<label for="firstname"> Full Name</label> 
+<input type="text" id="firstname" name="firstname">
+</div>
+
+<h4>Delivery Address</h4>
+<input type="text" placeholder="Street Address">
+<input type="text" placeholder="Street Address Line 2">
+
+<div class="row">
+<input type="text" placeholder="City">
+<input type="text" placeholder="State / Province">
+</div>
+
+<input type="text" placeholder="Postal / Zip Code">
+
+<h4>Pay with Credit Card</h4>
+
+<div class="row">
+<input class="card" type="text" placeholder="First Name">
+<input class="card" type="text" placeholder="Last Name">
+</div>
+
+<div class="row">
+<input type="text" placeholder="Credit Card Number">
+<input type="text" placeholder="Security Code">
+</div>
+
+<input type="text" placeholder="Card Expiration">
+
+</div>
+<br></br>
+<br></br>
+
+<button class="submit-btn">Submit</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
+
+
